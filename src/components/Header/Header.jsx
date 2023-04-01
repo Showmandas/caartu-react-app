@@ -1,11 +1,14 @@
 import React from 'react';
+import './Header.css'
 
 const Header = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg p-3">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-lg"  style={{backgroundColor:"#F7DB6A"}}>
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../../../public/images/png-clipart-chef-cooking-chef-food-hand-thumbnail-removebg-preview.png" alt="brandlogo" className='img-fluid' id='brandLogo' />
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -1,7 +1,8 @@
 #root {
   height: 100vh;
-  background-color: rgba(255, 217, 61,0.4);
+  /* background-color: rgba(255, 217, 61,0.4); */
 }
+
 
 .logo {
   height: 6em;

@@ -7,7 +7,7 @@ const SlideContent = (props) => {
     return (
         <div className="carousel-item active">
       <img src={img} className="d-block w-100 h-50 img-fluid" id='slideImg' alt="..."/>
-      <div className="text-dark carousel-caption bg-transparent w-50 m-auto" id='slidecontent'>
+      <div className="text-dark carousel-caption border border-warning-subtle w-50 m-auto d-flex flex-column" id='slidecontent'>
         <h4 className='fw-bold'>{title}</h4>
         <p className='fw-semibold'>{description}</p>
       </div>
