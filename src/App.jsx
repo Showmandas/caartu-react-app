@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Slider from './components/Slider/Slider'
 import AboutUs from './components/About/AboutUs'
+import Items from './components/Items/Items'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
      <Header/>
      <Slider/>
      <AboutUs/>
+     <Items/>
     </div>
   )
 }
