@@ -7,6 +7,7 @@ import Slider from './components/Slider/Slider'
 import AboutUs from './components/About/AboutUs'
 import Items from './components/Items/Items'
 import Location from './components/Location/Location'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
      <AboutUs/>
      <Items/>
      <Location/>
+     <Footer/>
     </div>
   )
 }
