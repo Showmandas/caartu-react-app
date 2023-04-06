@@ -2,7 +2,7 @@ import React from "react";
 
 const Location = () => {
   return (
-    <div className="container card my-3">
+    <div className="container card my-5 p-4">
       <div className="row mt-4 p-4">
         <div className="col-12 col-md-12 col-lg-6 p-2">
           <h2>Where we are ?</h2>

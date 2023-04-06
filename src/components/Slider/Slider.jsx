@@ -12,7 +12,7 @@ const Slider = () => {
     },[])
 
     return (
-        <div id="carouselExampleCaptions" className="carousel slide">
+        <div id="carouselExampleCaptions" className="carousel slide container acitve">
   
   <div className="carousel-inner">
     {

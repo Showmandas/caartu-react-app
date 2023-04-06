@@ -1,6 +1,14 @@
 #brandLogo{
     width: 70px;
 }
+
 #navItems{
-    color: #F7DB6A !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#nav-items{
+    text-decoration: none !important;
 }

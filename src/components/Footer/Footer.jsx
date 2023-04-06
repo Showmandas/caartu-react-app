@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='container'  id='footer'>
-            <div className="row text-center  pt-3 mb-5 my-5 p-4">
+            <div className="row text-center  pt-3  mt-5 p-4">
                 <div className="col col-md-4 col-lg-4 links">
                     <h4 className='text-white'>Quick Links</h4>
                     <ul className='d-flex flex-column justify-content-center align-items-center  navbar-nav'>
